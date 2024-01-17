@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+   
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .logo img {
+    width:100%; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    object-fit: cover;
+    margin-left: 5%;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    margin-right: 15%;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: border 0.3s;
+  }
+  
+  .nav-link:hover {
+    border: 2px solid white;
+    border-radius: 9.6px;
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  .active-link {
+    border: 2px solid white;
+    border-radius: 9.6px;
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  

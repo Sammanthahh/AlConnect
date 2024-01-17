@@ -1,0 +1,122 @@
+.event-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid green;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #c6e2ff;
+
+  .event-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .event-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+  }
+
+  .event-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .event-date-location {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .event-description {
+    margin-bottom: 0.5rem;
+  }
+
+  .event-actions {
+    display: flex;
+    align-items: center;
+
+    .delete-button,
+    .update-button {
+      cursor: pointer;
+      padding: 0.25rem 1rem;
+      margin-right: 0.5rem;
+    }
+
+    .delete-button {
+      background-color: #ff6b6b;
+      color: white;
+    }
+
+    .update-button {
+      background-color: #4caf50;
+      color: white;
+    }
+  }
+}
+
+.update-modal,
+.delete-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.update-modal.show,
+.delete-modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+
+  .close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    .close-button,
+    .update-button,
+    .delete-button {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+    }
+
+    .close-button {
+      background-color: #ccc;
+    }
+
+    .update-button {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .delete-button {
+      background-color: #ff6b6b;
+      color: white;
+    }
+  }
+}

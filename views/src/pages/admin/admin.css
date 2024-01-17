@@ -1,0 +1,31 @@
+.admin{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.admin-c{
+    width: fit-content;
+    padding: 15px;
+    align-items: center;
+    height: 400px;
+    background-color: #0a075f;
+    display: flex;
+    justify-content: center;
+
+}

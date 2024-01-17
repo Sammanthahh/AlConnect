@@ -1,0 +1,22 @@
+.sign-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+
+.sign-txt{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

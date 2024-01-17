@@ -1,0 +1,26 @@
+.footer {
+    background: #0a075f;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    position: relative;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .logo-f {
+    max-width: 180px; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .right-column {
+    text-align: right;
+  }
+  

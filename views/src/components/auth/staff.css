@@ -1,0 +1,40 @@
+.staff-login-container {
+    background-color: #0a075f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .staff-login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .staff-login-form h2 {
+    text-align: center;
+  }
+  
+  .staff-login-form label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .staff-login-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .staff-login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a075f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,111 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+  
+    margin: 20px;
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+
+    padding: 0;
+    margin-bottom: 2%;
+  }
+  
+  .card-image {
+    width: 100%;
+    width: 350px;
+    max-height: 400px;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-content {
+    padding: 20px;
+    padding-top: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-column {
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    margin-left: -10%;
+  
+  }
+  
+  .month {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .day {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .event-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    padding-left: 5px;
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .card-action{
+    display:flex;
+    flex-flow : row wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+  }
+
+  .alumni-record{
+    display:flex;
+    flex-flow:row wrap;
+    margin-left: 7%;
+    justify-content: space-around;
+    height: 400px;
+ 
+    overflow-y: scroll;
+   
+  }
+
+  .al-img{
+    width:130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .alumni{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-weight: 600;
+  }
+  .alumni-info{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
